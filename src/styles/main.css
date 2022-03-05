@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root{
+    --protagonist-shoot-color: #FF0000;
+    --protagonist-explosion: #FFFFFF;
+
+    --enemy-shoot-color: #d2c6e4;
+    --enemy-explosion: #BAA0DE;
+
+    --stars-color: #FFFFFF;
+
+}
+
+body {
+    margin: 0;
+    max-width: 90vw;
+    max-height: 90vh;
+    font-size: 24px;
+}
+
+p {
+    left: 10px;
+    top: 10px;
+    margin: 0;
+    position: fixed;
+    z-index: 10;
+
+    
+
+    color: #FFFFFF;
+    font-family: 'VT323', sans-serif;
+}
+
+#gameStatus {
+    font-family: 'VT323', sans-serif;
+    text-align: center;
+    /* margin-top: 50vh;
+    margin-left: 50vw; */
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    color: #FFFFFF;
+}
